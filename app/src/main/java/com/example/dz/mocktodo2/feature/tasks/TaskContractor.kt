@@ -17,7 +17,9 @@ interface TaskContractor {
 
     interface View : BaseView<Presenter> {
         var isActive: Boolean
+
         fun setLoadingIndicator(active: Boolean)
+
         fun showTasks(tasks: List<Task>)
 
         fun showAddTask()
