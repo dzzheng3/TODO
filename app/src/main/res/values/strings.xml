@@ -6,4 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="lable_active">Actived TODOS</string>
+    <string name="lable_completed">Completed TODOs</string>
+    <string name="lable_all">All TODOs</string>
 </resources>

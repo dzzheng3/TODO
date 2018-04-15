@@ -1,10 +1,11 @@
 package com.example.dz.mocktodo2.feature.tasks
 
+import com.example.dz.mocktodo2.BasePresenter
 import com.example.dz.mocktodo2.BaseView
 import com.example.dz.mocktodo2.data.local.Task
 
 interface TaskContractor {
-    interface Presenter {
+    interface Presenter : BasePresenter {
         var currentFilterType: TaskFilterType
         fun resule(requestCode: Int, resultCode: Int)
         fun loadTasks(forceUpdate: Boolean)
